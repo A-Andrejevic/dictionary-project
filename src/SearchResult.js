@@ -3,6 +3,9 @@ import Meanings from "./Meanings";
 import "./SearchResult.css";
 
 export default function SearchResult(props) {
+
+
+
   if (props.results) {
     return (
       <div className="SearchResult">
@@ -17,11 +20,6 @@ export default function SearchResult(props) {
       </div>
     );
   } else {
-    return (
-      <h3>
-        Sorry, we cannot find this word in the dictionary. <br />
-        Please try searching for another word.
-      </h3>
-    );
+    return null;
   }
 }
