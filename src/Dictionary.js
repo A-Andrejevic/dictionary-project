@@ -8,7 +8,6 @@ export default function Dictionary() {
   let [searchResults, setSearchResults] = useState(null);
 
   function handleApiResponse(response) {
-   
     setSearchResults(response.data[0]);
   }
 

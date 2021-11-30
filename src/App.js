@@ -4,8 +4,11 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <div className="container ">
-        <Dictionary />
+      <div className="container">
+        <div className="row">
+          {" "}
+          <Dictionary />
+        </div>
       </div>
 
       <footer>
