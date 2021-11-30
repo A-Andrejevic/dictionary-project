@@ -14,13 +14,15 @@ export default function SearchResult(props) {
             <em>/{props.results.phonetic}/</em>{" "}
           </h6>
 
-          {/* {props.results.phonetics.audio.map((audio, index) => {
+          {props.results.phonetics.map((phonetic, index) => {
             return (
-              <div key={index}>
-                <Pronunciation audio={audio} />
+              <div key={index}> 
+              <Pronunciation audio={phonetic.audio}/>
               </div>
             );
-          })} */}
+          })}
+
+        
         </section>
         {props.results.meanings.map((meaning, index) => {
           return (
