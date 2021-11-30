@@ -1,3 +1,8 @@
+.App {
+  background-color: lightgrey;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/021/930/original/scattered-pages.jpg?1638277593);
+}
+
 .App footer {
   text-align: center;
   margin-top: 180px;
