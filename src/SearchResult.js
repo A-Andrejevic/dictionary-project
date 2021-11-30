@@ -16,13 +16,11 @@ export default function SearchResult(props) {
 
           {props.results.phonetics.map((phonetic, index) => {
             return (
-              <div key={index}> 
-              <Pronunciation audio={phonetic.audio}/>
-              </div>
+              <h5 key={index}>
+                <Pronunciation audio={phonetic.audio} />
+              </h5>
             );
           })}
-
-        
         </section>
         {props.results.meanings.map((meaning, index) => {
           return (

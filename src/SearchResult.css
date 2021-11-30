@@ -1,11 +1,13 @@
-.SearchResult h1, h6 {
-    text-align: center;
+.SearchResult h1,
+h6 {
+  text-align: center;
 }
 
 .SearchResult h1 {
-    font-size: 65px;
+  font-size: 65px;
 }
 
-.SearchResult h6 {
-    font-size: 25px;
+.SearchResult h5,
+h6 {
+  font-size: 25px;
 }

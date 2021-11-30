@@ -1,0 +1,12 @@
+button {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
