@@ -1,7 +1,7 @@
 import React from "react";
+import "./Meanings.css";
 
 export default function Meanings(props) {
-
   return (
     <div className="Meanings">
       <h2>{props.meanings.partOfSpeech}</h2>

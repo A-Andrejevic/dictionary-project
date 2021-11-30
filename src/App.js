@@ -4,7 +4,9 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <Dictionary />
+      <div className="container ">
+        <Dictionary />
+      </div>
 
       <footer>
         This project was created by Aleksandra Andrejevic and it is completely{" "}
