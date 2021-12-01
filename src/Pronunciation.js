@@ -6,10 +6,9 @@ import "./Pronunciation.css";
 export default function Pronunciation(props) {
   return (
     <div className="Pronunciation">
-      <button type="button" class="btn btn-dark">
+      <a href={props.audio} target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faPlayCircle} size="2x" />
-        <a href={props.audio}>Listen</a>
-      </button>
+      </a>
     </div>
   );
 }

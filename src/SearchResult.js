@@ -13,14 +13,9 @@ export default function SearchResult(props) {
           <h6>
             <em>/{props.results.phonetic}/</em>{" "}
           </h6>
-
-          {props.results.phonetics.map((phonetic, index) => {
-            return (
-              <h5 key={index}>
-                <Pronunciation audio={phonetic.audio} />
-              </h5>
-            );
-          })}
+          <h5>
+            <Pronunciation audio={props.results.phonetics[0].audio} />
+          </h5>
         </section>
         {props.results.meanings.map((meaning, index) => {
           return (
