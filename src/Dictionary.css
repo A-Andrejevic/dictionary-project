@@ -2,7 +2,7 @@
   margin-top: 50px;
   border: solid;
   border-color: black;
-  background-color: white;
+  background-color: rgb(235, 228, 228);
   border-radius: 10px;
 
   padding: 20px;
@@ -16,5 +16,15 @@
 .Dictionary input {
   border-radius: 10px;
   background-color: black;
-  color: lightgrey;
+  color: white;
+}
+
+#search-button {
+  color: white;
+  transition: all 200ms ease;
+}
+
+#search-button:hover {
+  color: black;
+  background-color: rgb(235, 228, 228);
 }

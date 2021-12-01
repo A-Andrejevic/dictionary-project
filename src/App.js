@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <div className="row">
           {" "}
-          <Dictionary />
+          <Dictionary defaultSearchQuery="book"/>
         </div>
       </div>
 
