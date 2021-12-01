@@ -4,7 +4,6 @@ import Pronunciation from "./Pronunciation";
 import "./SearchResult.css";
 
 export default function SearchResult(props) {
-  console.log(props);
   if (props.results) {
     return (
       <div className="SearchResult">
