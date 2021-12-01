@@ -11,3 +11,7 @@ h6 {
 h6 {
   font-size: 25px;
 }
+
+.SearchResult h6 {
+  opacity: 0.8;
+}
